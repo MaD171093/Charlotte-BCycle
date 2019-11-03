@@ -1,0 +1,42 @@
+#map{
+  height: 65%;
+  width: 960px;
+  /* align-content: center; */
+  /* left: 110px; */
+}
+
+.bar {
+   border: 1px solid #0b3536;
+   border-radius: 6px;
+   fill: #512323;
+ }
+
+ #viz .barText {
+   fill: #f5faf8;
+   font-weight: 500;
+   margin-left: 0;
+   margin-right: 100px;
+ }
+
+ #viz2 .barText {
+   fill: #f5faf8;
+   font-weight: 500;
+   margin-left: 0;
+   margin-right: 100px;
+ }
+
+ #viz3 .barText {
+   fill: #f5faf8;
+   font-weight: 500;
+   margin-left: 0;
+   margin-right: 100px;
+ }
+
+ .axisY text, .axisX text, .headerText text{
+   fill: #0b3536;
+ }
+
+/* #barGraph {
+  margin-left: 0;
+  margin-right: 0;
+} */

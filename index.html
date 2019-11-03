@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>(B)cycle</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!--  D3 Mapbox-->
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/custom.css">
+	<style>
+		html, body {
+		    height: 100%;
+		}
+	</style>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve column" id= 'heading'>
+        <h1>CHARLOTTE B-cycle</h1>
+        <p> </p>
+        <h5>Introduction</h5>
+        <p>Charlotte B-cycle is one of the largest urban bike sharing systems in the Southeast.
+          With 200 blue bikes and 24 stations strategically placed throughout Uptown and surrounding
+          neighborhoods from JCSU to Freedom Park, these B-Stations are convenient for your travels around town.
+          Becoming a member and riding a B-cycle promotes health and wellness and also provides a flexible alternative way to get around Center City.
+          Charlotte B-cycle members can pick up a blue bike at any B-station and drop it off at any other B-station.<a href="https://charlotte.bcycle.com/">Click here to go to B-Cycle webpage</a> </p>
+          <h5>About Webpage</h5>
+          <p> This webpage consists of some basic data visualization of Charlote B-Cycle, the visualizations are made using D3.js, Mapbox/Leaflet, and is styled using Skeleton CSS.
+             The Data for the visualization was collected from citybik.es </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve column" id='mapText'>
+        <h5>Visualization-1.0-MAP</h5>
+        <p>The map below shows current status of each station.filled circles represent how many B-cyles are currently present at each station,
+          darker shade indicate more B-cycles and lighter shade indicate less B-cycles</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" id='map'></div>
+
+  <div class="container">
+    <div class="row">
+      <p>_____________________________________________________________________________________________________________________________</p>
+      <p>_____________________________________________________________________________________________________________________________</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve column" id='bar1Text'>
+        <h5>Visualization-2.0-Bar Graph No. Of B-cycles at Stations</h5>
+        <p>The bar graph below shows the number of B-cycles at each station in the system.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class='container' id='barGraph'>
+  	<div class="row">
+  		<div class="twelve column " id='viz'></div>
+  	</div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <p>_____________________________________________________________________________________________________________________________</p>
+      <p>_____________________________________________________________________________________________________________________________</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve column" id='bar2Text'>
+        <h5>Visualization-3.0-Bar Graph Parking Slots at Stations</h5>
+        <p>The bar graph below shows the number of empty parking slots at each B-cycle station in the system.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class='container' id='barGraph'>
+  	<div class="row">
+  		<div class="twelve column " id='viz2'></div>
+  	</div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <p>_____________________________________________________________________________________________________________________________</p>
+      <p>_____________________________________________________________________________________________________________________________</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve column" id='bar2Text'>
+        <h5>Visualization-4.0-Bar Graph Pricing Options</h5>
+        <p>The bar graph below shows various pricing available to the users.</p>
+        <p>With the 24hr pass you can ride 2hrs before having to dock.
+        Remember as long as you dock every 2hrs your membership is only $8.  If you go over 2hrs you will incur usage fees.</p>
+        <p>The price shown is per month and total price is $100. Save $20 when you purchase an entire year of rides with Charlotte Bcycle.
+          Enjoy unlimited 120 minute rides. Don't forget to dock every 2 hours to avoid usage fees.</p>
+        <p>Enjoy unlimited 120-minutes rides for a month! Rides longer than 2 hours are subject to a usage fee of $4 per additional 30 minutes.
+          Don't forget to dock every 2 hours, in order to avoid usage fees.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class='container' id='barGraph'>
+  	<div class="row">
+  		<div class="twelve column" id='viz3'></div>
+  	</div>
+  </div>
+
+
+
+
+
+<script type="text/javascript" src ="script.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

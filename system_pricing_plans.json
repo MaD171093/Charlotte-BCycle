@@ -1,0 +1,29 @@
+[
+  {
+    "price":8.0000,
+    "is_taxable":0,
+    "url":"charlotte.bcycle.com",
+    "description":"With the 24hr pass you can ride 2hrs before having to dock.  Remember as long as you dock every 2hrs your membership is only $8.  If you go over 2hrs you will incur usage fees.",
+    "currency":"USD",
+    "name":"24-Hour Pass",
+    "plan_id":"bcycle_charlotte_119"
+  },
+  {
+    "price":8.333,
+    "is_taxable":0,
+    "url":"charlotte.bcycle.com",
+    "description":"The price shown is per month. Save $20 when you purchase an entire year of rides with Charlotte Bcycle. Enjoy unlimited 120 minute rides. Don't forget to dock every 2 hours to avoid usage fees. ",
+    "currency":"USD",
+    "name":"Annual Membership Monthly",
+    "plan_id":"bcycle_charlotte_120"
+  },
+  {
+    "price":9.9900,
+    "is_taxable":0,
+    "url":"charlotte.bcycle.com",
+    "description":"Enjoy unlimited 120-minutes rides for a month! Rides longer than 2 hours are subject to a usage fee of $4 per additional 30 minutes. Don't forget to dock every 2 hours, in order to avoid usage fees. ",
+    "currency":"USD",
+    "name":"Monthly - Regular",
+    "plan_id":"bcycle_charlotte_418"
+  }
+]
